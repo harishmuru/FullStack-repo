@@ -1,0 +1,36 @@
+body{
+    background-image: url('image/citywater.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    color: skyblue;
+}
+#one{
+    display: inline;
+    background-color: aqua;
+    position: static;
+}
+#two{
+    display: inline;
+    background-color: blue;
+    position:relative;
+    top: 50px;
+}
+#three{
+    display: inline;
+    background-color: red;
+    position:absolute;
+    top: 30px;
+}
+#four{
+    display: inline;
+    background-color: green;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+#five{
+    display: inline;
+    background-color: brown;
+}
