@@ -16,8 +16,6 @@ document.write(str1.substr(0,5));
 document.write("<br>");
 document.write(str1.slice(start,end));
 document.write("<br>");
-document.write(str1.substring(5));
-document.write("<br>");
 var name2=new Array;
 name2[0]="mathi";
 name2[1]="deva";
@@ -41,3 +39,23 @@ let myFunction=()=>{
     document.write(num);
 }
 myFunction();
+document.write("<br>");
+const pen={
+    personname:"rehan",
+    pencolor:"red",
+    penprice:25,
+}
+ console.log("The pen is purchased by ",pen.personname,"and pen color is",pen.pencolor,"it's price is ",pen.penprice);
+//let per1="hari";
+//let per2="harivar";
+//if(per1===per2){
+//    console.log("yes");
+//}
+//else
+//{
+//    console.log("no");
+//}
+//per1===per2 ? console.log("yes"):console.log("no");
+//const animals1=['Tiger','Lion','Elephant','Deer',"wolf"]
+//animals1.splice(3,2,'Cat','dog','frog');
+//document.write(animals1);

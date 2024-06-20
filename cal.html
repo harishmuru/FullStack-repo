@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ADDTION</h1>
+    <input type="text" id="first"><br>
+    <input type="text" id="second"><br>
+    <button onclick="myfunc()">calculate</button>
+    <p id="ans"></p>
+</body>
+<script>
+    function myfunc(){
+        let a=document.getElementById("first").value;
+        let b=document.getElementById("second").value;
+        let c=parseInt(a)+parseInt(b);
+        document.getElementById("ans").innerText=c;
+    }
+</script>
+</html>

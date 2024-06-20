@@ -6,7 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    
-</body>
-<script src="dynamicscrip.js"></script>
+    <h1 id="heading"></h1>
+    <p class="parah"></p>
+    <p class="parah"></p>
+    <p class="parah"></p>
+    <p class="parah"></p>
+</body>  
+<script>
+    //document.getElementById("heading").innerHTML="animals"
+    document.querySelector("#heading").innerHTML="animals"
+    let animals=["lion","cat","dog","tiger"]
+    for(let i=0;i<animals.length;i++)
+    {
+        //document.getElementsByClassName("parah")[i].innerHTML=animals[i]
+        document.querySelectorAll(".parah")[i].innerHTML=animals[i]
+    }
+</script>
 </html>
