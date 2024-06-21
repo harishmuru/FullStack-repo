@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #answer1{
+            height: 25px;
+            width: 150px;
+            border: 2px double black;
+            text-align: center;
+        }
+        body{
+            background-image: url('image/calci.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center center;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+    #count{
+        border: 2px ridge black;
+        height: 280px;
+            width: 400px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            background-color: rgb(214, 177, 238);
+    }
+        .clicking{
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div id="count">
+        <h1>CALCULATOR</h1>
+        <input type="text" id="first"><br>
+        <input type="text" id="second">
+    <div class="clicking">
+       <button onclick="myfunc1()">Add</button>
+       <button ondblclick="myfunc2()">Subtract</button>
+       <button onmouseenter="myfunc3()">Multiply</button>
+       <button onmouseover="myfunc4()">Divide</button>
+    </div><br>
+    <div id="answer1"></div>
+    </div>
+    
+</body>
+<script src="newcalcifilescript.js"></script>
+</html>
