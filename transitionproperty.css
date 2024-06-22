@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 5s ease-in-out 0.5s;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+div:hover{
+    background-color: green;
+    color: white;
+    font-family: cursive;
+    /*transform: rotate(90deg);*/
+    /*transform: skew(90deg);*/
+    /*transform: scale(2);*/
+    /*transform: rotatex(180deg);*/
+    transform: scalex(2);
+    text-align: center;
+    text-transform:uppercase;
+}
